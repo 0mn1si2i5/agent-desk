@@ -25,6 +25,8 @@
 
 AgentDesk keeps a small, local index around the official AI coding clients already installed on your computer:
 
+- **Appearance and everyday controls.** Switch between cozy cats and VHS synthwave, customize Agent sign colors, reorder cards, and browse the roster with the mouse wheel. See [appearance notes](docs/APPEARANCE.md).
+
 - **Account slots.** Store separate local profile and session-root paths, launch supported desktop apps with the selected slot, and keep work/personal identities from colliding.
 - **Session browser.** Scan Claude Desktop, Claude CLI, Codex, Cursor, Kimi Code, and Kimi Work history into one searchable, sortable table. View the current Agent or all Agents under the active device lens.
 - **Stable conversation identity.** Codex compaction checkpoints stay inside one user conversation; guardian/subagent rollouts remain hidden instead of appearing as new sessions or projects.
@@ -151,6 +153,8 @@ AgentDesk 是一个本地的 AI 编码账号与会话管理器：把不同客户
 > **开发状态：** `0.10.1-preview.1` 源码已经接通版本化首次使用、设备任务向导、同 Mesh TaskPackage 直送和有界 Profile 运行保护的有人值守 Preview 路径。全量 Node 527 项中 526 通过、1 项仅 Windows 跳过、0 失败；TaskPackage 安全定向 25/25，发布安全定向 14/14，真实 Electron UI 21/21。当前 macOS unpacked 成品也已通过独立的 Electron fuse/ASAR verifier；这些证据证明源码与本机成品边界，不等于可分发版本已经产生。隔离双 endpoint 的局域网直连与本机 signaling E2E 已完成既有数据面，物理双 Mac 局域网则完成认证 host/UDP 通道和 562,009 字节库存（9 个 Slot、638 条 SessionReplica、revision 7 → 8 → 9），连续 5 分钟稳定；runner 仍未发送 TaskPackage。Draft、原生双端重下载、公开后匿名重下载和失败回 Draft 的发布事务已经进入代码，但尚未用真实签名凭据、受保护环境与真实 Tag 执行，因此当前没有与该源码匹配的公开 Preview。真实公网 NAT/CGNAT、coturn 强制中继、断网/睡眠恢复、TaskPackage 物理直送，以及 macOS/Windows 权限矩阵也继续开放。
 
 ## 核心能力
+
+- **第二套外观与列表操作。** 可切换 VHS 合成波皮肤与霓虹大楼，支持逐 Agent 配色、长按排序和滚轮横向浏览。见 [外观说明](docs/APPEARANCE.md)。
 
 - **账号槽位隔离。** 每个槽位保存独立的数据目录和会话根目录，打开受支持的官方桌面 App 时使用所选槽位，减少工作号、个人号互相覆盖。
 - **统一会话浏览。** 索引 Claude Desktop、Claude CLI、Codex、Cursor、Kimi Code、Kimi Work 的本地会话，可在当前设备 Lens 下查看当前 Agent 或全部 Agent，并按属性搜索、排序。
