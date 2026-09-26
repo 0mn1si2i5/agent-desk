@@ -1,5 +1,7 @@
 # AgentDesk 文档导航
 
+搭配代理客户端的使用说明：[`AGENTDOCK_COMPATIBILITY.md`](AGENTDOCK_COMPATIBILITY.md)。
+
 这里是仓库文档的入口，也是“当前做到哪一步”的统一说明。涉及 Personal Agent Mesh 的实现决策，以 [`PERSONAL_AGENT_MESH_PLAN.md`](PERSONAL_AGENT_MESH_PLAN.md) 为唯一实施权威；当前权威版本为 **1.33 / OWNER APPROVED — IMPLEMENTATION AUTHORIZED**。
 
 ## 先分清七种状态
@@ -56,5 +58,3 @@ npm run check:docs
 ```
 
 检查会验证导航链接、权威版本、527 项 Node / 21 条实窗 / 14 条发布安全证据、发布事务关键阶段与发布口径，并阻止稳定版、旧七行 UI、默认 Cloud/Kimi，以及把代码、窗口投影、托管 runner 或物理验收混写为“全部完成”等越阶段说法重新进入当前事实文档。
-
-搭配代理客户端的使用说明：[`AGENTDOCK_COMPATIBILITY.md`](AGENTDOCK_COMPATIBILITY.md)。
